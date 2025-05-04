@@ -2,7 +2,7 @@ name: Push to Docker hub
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 jobs:
   docker-push:
